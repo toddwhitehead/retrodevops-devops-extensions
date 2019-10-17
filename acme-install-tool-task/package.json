@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "azure-pipelines-task-lib": "^2.8.0",
+    "azure-pipelines-tool-lib": "^0.11.0"
+  },
+  "devDependencies": {
+    "@types/node": "^12.7.1",
+    "@types/q": "^1.5.2"
+  },
+  "name": "acme-install-tool-task",
+  "version": "1.0.0",
+  "main": "acmetoolinstaller.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

@@ -1,0 +1,109 @@
+{
+    "manifestVersion": 1,
+    "id": "acme-build-extension",
+    "name": "ACME Cross Assembler Build Tools",
+    "version": "0.1.19",
+    "publisher": "ToddWhitehead",
+    "targets": [
+        {
+            "id": "Microsoft.VisualStudio.Services"           
+        }
+    ],    
+    "description": "Tasks to help assemble 8-bit machine language programs using the ACME Cross Assembler",
+    "categories": [
+        "Azure Pipelines"
+    ],
+    "galleryFlags": [
+            "Public", "Preview"
+    ],
+    "icons": {
+        "default": "6502.png"    
+    },
+    "files": [
+        {
+            "path": "acme-cross-assemble-task"
+        },
+        {
+            "path": "acme-install-tool-task"
+        },
+        {
+            "path": "pucrunch-install-tool-task"
+        },
+        {
+            "path": "pucrunch-compress-task"
+        },
+        {
+            "path": "images",
+            "addressable": true,
+            "packagePath": "images"
+        }
+    ],
+    "tags": [
+        "C64",
+        "Commodore 64",
+        "Build",
+        "Cross Assembler",
+        "Acme",
+        "Build"
+    ],
+    "links": {
+        "getstarted": {
+            "uri": "https://retrodevops.com"
+        },
+        "repository": {
+            "uri": "https://github.com/toddwhitehead/azure-devops-acme-assembler"
+        },
+        "issues": {
+            "uri": "https://github.com/toddwhitehead/azure-devops-acme-assembler/issues"
+        }
+    },
+    "content": {
+        "details": {
+            "path": "readme.md"
+        }
+    },
+    "contributions": 
+    [
+    {
+            "id": "custom-build-release-task",
+            "type": "ms.vss-distributed-task.task",
+            "targets": [
+                "ms.vss-distributed-task.tasks"
+            ],
+            "properties": {
+                "name": "acme-cross-assemble-task"
+            }
+    },
+    {
+        "id": "acme-install-tool-task",
+        "type": "ms.vss-distributed-task.task",
+        "targets": [
+            "ms.vss-distributed-task.tasks"
+        ],
+        "properties": {
+            "name": "acme-install-tool-task"
+        }
+    },
+    {
+        "id": "pucrunch-install-tool-task",
+        "type": "ms.vss-distributed-task.task",
+        "targets": [
+            "ms.vss-distributed-task.tasks"
+        ],
+        "properties": {
+            "name": "pucrunch-install-tool-task"
+        }
+    },
+    {
+        "id": "pucrunch-compress-task",
+        "type": "ms.vss-distributed-task.task",
+        "targets": [
+            "ms.vss-distributed-task.tasks"
+        ],
+        "properties": {
+            "name": "pucrunch-compress-task"
+        }
+    }
+    
+    ] 
+}

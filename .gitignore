@@ -1,0 +1,12 @@
+dist/
+built/
+node_modules/
+npm-debug.log
+BuildTasks/typings/
+BuildTasks/*Extension*/common.ts
+*.vsix
+/.vs
+.taskkey
+/BuildTasks/PublishExtension/debug.cmd
+/BuildTasks/IsValidExtensionAgent/debug.cmd
+*.env
