@@ -1,5 +1,5 @@
 {
-    "id": "2c7fd6a2-7276-43ca-bb16-3caae1dd4698",
+    "id": "{acme-cross-assemble-task-guid}",
     "name": "acme-cross-assemble-task",
     "friendlyName": "ACME Cross Assembler Build Task",
     "description": "Assembles machine code programs using the ACME Cross Assembler",
@@ -9,7 +9,7 @@
         "Build",
         "Release"      
     ],
-    "author": "Todd Whitehead",
+    "author": "{AuthorName}",
     "version": {
         "Major": 0,
         "Minor": 3,

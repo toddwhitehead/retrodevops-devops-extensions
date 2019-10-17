@@ -10,3 +10,4 @@ BuildTasks/*Extension*/common.ts
 /BuildTasks/PublishExtension/debug.cmd
 /BuildTasks/IsValidExtensionAgent/debug.cmd
 *.env
+*.js

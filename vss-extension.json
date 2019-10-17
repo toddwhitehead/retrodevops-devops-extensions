@@ -3,7 +3,7 @@
     "id": "acme-build-extension",
     "name": "ACME Cross Assembler Build Tools",
     "version": "0.1.19",
-    "publisher": "ToddWhitehead",
+    "publisher": "{PublisherName}",
     "targets": [
         {
             "id": "Microsoft.VisualStudio.Services"           

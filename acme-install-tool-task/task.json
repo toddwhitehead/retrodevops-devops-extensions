@@ -1,5 +1,5 @@
 {
-    "id": "18266cf5-298a-4d59-9805-006a6b94bdc2",
+    "id": "{acme-tool-install-task-guid}",
     "name": "acme-tool-install-task",
     "friendlyName": "ACME Cross Assembler Installer Task",
     "description": "Installs and builds using the ACME Cross Compiler",
@@ -8,7 +8,7 @@
     "visibility": [
         "Build"      
     ],
-    "author": "Todd Whitehead",
+    "author": "{AuthorName}",
     "version": {
         "Major": 2,
         "Minor": 1,

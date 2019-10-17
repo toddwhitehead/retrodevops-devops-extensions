@@ -1,5 +1,5 @@
 {
-    "id": "6fcbe666-da04-4041-a3e4-8e3f9065b270",
+    "id": "{pucrunch-compress-task-guid}",
     "name": "pucrunch-compress-task",
     "friendlyName": "PUCrunch Compress",
     "description": "Compress C64 Program with pucrunch",
@@ -9,7 +9,7 @@
         "Build",
         "Release"      
     ],
-    "author": "Todd Whitehead",
+    "author": "{AuthorName}",
     "version": {
         "Major": 0,
         "Minor": 3,

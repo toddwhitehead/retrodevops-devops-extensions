@@ -1,5 +1,5 @@
 {
-    "id": "db78abfc-fb64-47b0-b089-e2965d17a4ab",
+    "id": "{pucrunch-tool-install-task-guid}",
     "name": "pucrunch-tool-install-task",
     "friendlyName": "PUCrunch Tool Installer",
     "description": "Installs the pucrunch tool to compress Commodr 64 programs",
